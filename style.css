@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0 10rem;
+}
+
+.topic {
+   text-align: center;
+}
+
+.topic h4 {
+    color: green;
+    margin-top: 2px;
+}
+
+section {
+   text-align: center;
+}
+
+.name-container {
+    width: 100%;
+    margin: 1rem 0 !important;
+}
+
+#name {
+    width: 90%;
+    padding: 7px;
+}
+
+#name:focus, #date:focus, #amount:focus {
+    outline: none !important;
+    border: 1px solid green;
+    border-radius: 2px;
+}
+
+.date-amount-container {
+    width: 100%;
+}
+
+#date, #amount {
+    width: 41%;
+    padding: 7px;
+}
+
+button {
+    margin-top: 2rem;
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+table,th {
+    border: 0.5px solid black;
+    text-align: start;
+    border-collapse: collapse;
+    padding: 15px;
+}
+
+td {
+    padding: 15px;
+}
+
+tcxspan {
+    text-decoration: none !important;   
+}

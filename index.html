@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="topic">
+        <h1>Expense Tracker</h1>
+        <h4>Add A New Item:</h4>
+    </div>
+    <section>
+        <div class="name-container">
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Where was the expense made">
+        </div>
+        <div class="date-amount-container">
+            <label for="date">Date:</label>
+            <input type="date" id="date">
+
+            <label for="amount" style="padding-left: 4px;">Amount:</label>
+            <input type="text" id="amount">
+        </div>
+        <div style="display: flex;align-items: center;justify-content: center;">
+            <button id="submit-btn">Add Expense</button>
+        </div>
+    </section>
+    <section>
+        <table style="width: 100%; margin-top: 3rem;">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Date</th>
+                    <th style="border-right:none;">Amount</th>
+                    <th style="border-left: none;"></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr id="no-expense-row">
+                    <td style="border: none;">No expense added yet</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <script src="./design.js"></script>
+</body>
+
+</html>
